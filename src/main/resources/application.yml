@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: E_commerce
+  profiles:
+    include:
+      - db
+      - openapi
+server:
+  port: 8182
